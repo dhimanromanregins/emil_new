@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('./components/fonts/avenir-family/Avenir\ Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body,a ,h1,h2,h3,h4,h5,h6,div{
+  font-family: 'Avenir', sans-serif;
+}
+:root{
+  --primary-color:#fff;
+  --button-hover:#e66465;
+  --button-color:#0056b3;
+}
+
+.page-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.send-bulk-email-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  .checkbox-container {
+    margin-bottom: 20px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--button-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .warning-text {
+    margin-bottom: 20px;
+    color: red;
+  }
+  

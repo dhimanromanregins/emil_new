@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('./components/fonts/avenir-family/Avenir\ Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body,a ,h1,h2,h3,h4,h5,h6,div{
+  font-family: 'Avenir', sans-serif;
+}
+:root{
+  --primary-color:#FFF;
+  --button-hover:#e66465;
+  --button-color:#0056b3;
+}
+.addGroupContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .inputField {
+    width: calc(100% - 120px);
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .submitButton {
+    padding: 8px 20px;
+    background-color: var(--button-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .groupTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .groupTable th, .groupTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+ 
+  
+  .deleteButton {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
